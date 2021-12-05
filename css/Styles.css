@@ -1,0 +1,47 @@
+html, body {
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    background: url(../img/bg.png) repeat;
+
+}
+
+#container {
+    position: fixed;
+    width: 600px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+    border-radius: 3px;
+}
+
+input[type = submit] {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+p{
+    color: black;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    background: #555555;
+    color: white;
+}
+
+td{
+    background: gray;
+}
